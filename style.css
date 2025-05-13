@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f9f9f9;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #0077cc;
+    color: white;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button:hover {
+    background: #005fa3;
+}
+.orientacoes {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #eef7ff;
+    line-height: 1.8;
+}

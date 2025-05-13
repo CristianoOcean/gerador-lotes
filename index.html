@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de Lotes de Imunobiológicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Gerador de Lotes de Imunobiológicos</h2>
+<button onclick="adicionarLinha()">Gerar Novo Lote</button>
+<button onclick="limparTabela()">Limpar</button>
+
+<table id="tabela-lotes">
+    <thead>
+        <tr>
+            <th>Lote</th>
+            <th>Fabricante</th>
+            <th>Imunobiológico</th>
+            <th>Data de Validade</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+
+<div class="orientacoes">
+    <h3>Orientações:</h3>
+    <ul>
+        <li>Clique em "Gerar Novo Lote" para adicionar um item à lista.</li>
+        <li>Utilize o botão "Limpar" para remover todos os registros gerados.</li>
+        <li>As datas de validade são geradas aleatoriamente com 10% de chance de serem vencidas. Faz parte da dinâmica no e-SUS PEC.</li>
+        <li>Para o campo <strong>Lote</strong>, você pode copiar e colar no PEC. Fique atento para não copiar os espaços. O PEC faz a validação.</li>
+        <li>Use o recurso de 'autocompletar' nos campos <strong>Fabricante</strong> e <strong>Imunobiológico</strong> do PEC, usando como referência a informação gerada aqui.</li>
+    </ul>
+</div>
+
+</body>
+</html>

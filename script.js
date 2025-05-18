@@ -1,5 +1,5 @@
 const fabricantes = ['Baxter', 'Bayer CO', 'BioNTech Ltda', 'FIOCRUZ', 'MODERNA', 'Astrazeneca', 'Butantan', 'Sinovac',
-    'SanPasteur', 'Fund. OZAKA', 'American Cyanam', 'Pfizer', 'Serum', 'Bharat', 'Covaxin'];
+    'SanPasteur', 'Fund. OZAKA', 'American Cyanam', 'Pfizer', 'Serum', 'novartis', 'SEVAC', 'Pharma', 'Bharat', 'Covaxin'];
 const imunobiologicos = ['Hepatite B', 'Influenza', 'COVID-19', 'Tríplice Viral', 'HPV', 'Febre Amarela', 'Dengue', 'BCG', 'Penta',
     'Pentavalente', 'VIP', 'Pneumo', 'Rotavírus', 'Menigocócica', 'Meningo C', 'Hepatite A', 'Tetra Viral', 'Varicela', 'Soro'];
 const dataReferencia = new Date(2025, 4, 20); // 20/05/2025
